@@ -2,8 +2,8 @@
 
 /*
   23.01.2023
-  Тема 2, Занятие 2
-  Работа 1, Месяцы
+  РўРµРјР° 2, Р—Р°РЅСЏС‚РёРµ 2
+  Р Р°Р±РѕС‚Р° 1, РњРµСЃСЏС†С‹
   CPP-07
   @j1n4ed
 */
@@ -33,18 +33,18 @@ int main()
 
     int mon = 0;
 
-    std::cout << "Номера месяцев, введите номер от 1 до 12. Для выхода введите 0.\n";        
+    std::cout << "РќРѕРјРµСЂР° РјРµСЃСЏС†РµРІ, РІРІРµРґРёС‚Рµ РЅРѕРјРµСЂ РѕС‚ 1 РґРѕ 12. Р”Р»СЏ РІС‹С…РѕРґР° РІРІРµРґРёС‚Рµ 0.\n";        
 
     do // while (mon)
     {
         do
         {
-            std::cout << "\nВведите номер месяца (0 = выход): ";
+            std::cout << "\nР’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РјРµСЃСЏС†Р° (0 = РІС‹С…РѕРґ): ";
             std::cin >> mon;
 
             if (mon < 0 || mon > 12)
             {
-                std::cout << "Ошибка ввода, повторите!\n";
+                std::cout << "РћС€РёР±РєР° РІРІРѕРґР°, РїРѕРІС‚РѕСЂРёС‚Рµ!\n";
             }
 
         } while (mon < 0 || mon > 12);
@@ -56,62 +56,62 @@ int main()
             {
             case month::jan:
 
-                std::cout << "Январь";
+                std::cout << "РЇРЅРІР°СЂСЊ";
 
                 break;
             case month::feb:
 
-                std::cout << "Февраль";
+                std::cout << "Р¤РµРІСЂР°Р»СЊ";
 
                 break;
             case month::mar:
 
-                std::cout << "Март";
+                std::cout << "РњР°СЂС‚";
 
                 break;
             case month::apr:
 
-                std::cout << "Апрель";
+                std::cout << "РђРїСЂРµР»СЊ";
 
                 break;
             case month::may:
 
-                std::cout << "Май";
+                std::cout << "РњР°Р№";
 
                 break;
             case month::jun:
 
-                std::cout << "Июнь";
+                std::cout << "РСЋРЅСЊ";
 
                 break;
             case month::jul:
 
-                std::cout << "Июль";
+                std::cout << "РСЋР»СЊ";
 
                 break;
             case month::aug:
 
-                std::cout << "Август";
+                std::cout << "РђРІРіСѓСЃС‚";
 
                 break;
             case month::sep:
 
-                std::cout << "Сентябрь";
+                std::cout << "РЎРµРЅС‚СЏР±СЂСЊ";
 
                 break;
             case month::oct:
 
-                std::cout << "Октябрь";
+                std::cout << "РћРєС‚СЏР±СЂСЊ";
 
                 break;
             case month::nov:
 
-                std::cout << "Ноябрь";
+                std::cout << "РќРѕСЏР±СЂСЊ";
 
                 break;
             case month::dec:
 
-                std::cout << "Декабрь";
+                std::cout << "Р”РµРєР°Р±СЂСЊ";
 
                 break;
 
@@ -127,7 +127,7 @@ int main()
 
     } while (mon);   
 
-    std::cout << "До свиданья!\n\n" << std::endl;
+    std::cout << "Р”Рѕ СЃРІРёРґР°РЅСЊСЏ!\n\n" << std::endl;
 
     system("pause");
     return 0;
