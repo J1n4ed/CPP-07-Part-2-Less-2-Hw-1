@@ -37,7 +37,7 @@ int main()
 
     do // while (mon)
     {
-        do
+        do // while (mon < 0 || mon > 12);
         {
             std::cout << "\n¬ведите номер мес€ца (0 = выход): ";
             std::cin >> mon;
@@ -131,4 +131,4 @@ int main()
 
     system("pause");
     return 0;
-}
+} // END OF main()
